@@ -3040,6 +3040,21 @@
 				transform: translateX(-17em);
 			}
 
+
+	}
+
+	@media screen and (max-width: 520px) {
+			.features article .image.kudos{
+			    float: none;
+			    width: 100%;
+			    padding: 0 60px 30px 60px;
+			    margin: 0;
+			}
+			.features article .inner.kudos{
+				float: none;
+				width: 100%;
+			}
+
 	}
 
 /* XSmall */
@@ -3102,16 +3117,6 @@
 			input[type="button"],
 			.button {
 				padding: 0;
-			}
-			.features article .image.kudos{
-			    float: none;
-			    width: 100%;
-			    padding: 0 60px 30px 60px;
-			    margin: 0;
-			}
-			.features article .inner.kudos{
-				float: none;
-				width: 100%;
 			}
 
 	}
