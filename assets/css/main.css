@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("./font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -2431,12 +2431,12 @@
 			width: 48%;
 		}
 				.features article .image.kudos {
-padding-right: 2.5em;
-    display: inline-block;
-    float: left;
-			vertical-align: top;
-			width: 20%;
-		}
+					padding-right: 2.5em;
+					display: inline-block;
+					float: left;
+					vertical-align: top;
+					width: 20%;
+				}
 
 			.features article .image img {
 				display: block;
@@ -3102,6 +3102,16 @@ padding-right: 2.5em;
 			input[type="button"],
 			.button {
 				padding: 0;
+			}
+			.features article .image.kudos{
+			    float: none;
+			    width: 100%;
+			    padding: 0 60px 30px 60px;
+			    margin: 0;
+			}
+			.features article .inner.kudos{
+				float: none;
+				width: 100%;
 			}
 
 	}
