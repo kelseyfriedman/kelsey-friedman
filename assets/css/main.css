@@ -2431,12 +2431,12 @@
 			width: 48%;
 		}
 				.features article .image.kudos {
-padding-right: 2.5em;
-    display: inline-block;
-    float: left;
-			vertical-align: top;
-			width: 20%;
-		}
+					padding-right: 2.5em;
+					display: inline-block;
+					float: left;
+					vertical-align: top;
+					width: 20%;
+				}
 
 			.features article .image img {
 				display: block;
@@ -3038,6 +3038,21 @@ padding-right: 2.5em;
 				-webkit-transform: translateX(-17em);
 				-ms-transform: translateX(-17em);
 				transform: translateX(-17em);
+			}
+
+
+	}
+
+	@media screen and (max-width: 520px) {
+			.features article .image.kudos{
+			    float: none;
+			    width: 100%;
+			    padding: 0 60px 30px 60px;
+			    margin: 0;
+			}
+			.features article .inner.kudos{
+				float: none;
+				width: 100%;
 			}
 
 	}
