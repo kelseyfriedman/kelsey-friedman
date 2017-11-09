@@ -2504,7 +2504,7 @@
 		}
 
 		#header a {
-			color: #5ccfb0;
+			color: #717b71;
 		}
 
 			#header a:hover {
@@ -2531,7 +2531,7 @@
 			}
 
 			#header > header p {
-				color: ##5ccfb0;
+				color: ##717b71;
 				font-style: ;
 				margin: 1em 0 0 0;
 			}
@@ -2569,7 +2569,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #717b71;
 					display: block;
 					padding: 0;
 				}
